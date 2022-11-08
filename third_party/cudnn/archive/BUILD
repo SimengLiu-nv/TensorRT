@@ -11,7 +11,7 @@ cc_library(
 
 cc_import(
     name = "cudnn_lib",
-    shared_library = "lib/libcudnn.so",
+    shared_library = "lib64/libcudnn.so",
     visibility = ["//visibility:private"],
 )
 
